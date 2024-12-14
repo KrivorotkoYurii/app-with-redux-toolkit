@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/app-with-redux-toolkit/static/css/main.a77df5c9.css",
+    "main.js": "/app-with-redux-toolkit/static/js/main.01ddc51a.js",
+    "static/media/tomato.png": "/app-with-redux-toolkit/static/media/tomato.4405c07db784c272a39d.png",
+    "static/media/page-not-found.png": "/app-with-redux-toolkit/static/media/page-not-found.6f5b123471bc09721371.png",
+    "index.html": "/app-with-redux-toolkit/index.html",
+    "static/media/stroke.svg": "/app-with-redux-toolkit/static/media/stroke.29a5ca1428575a66dbe7c51a8bece725.svg",
+    "main.a77df5c9.css.map": "/app-with-redux-toolkit/static/css/main.a77df5c9.css.map",
+    "main.01ddc51a.js.map": "/app-with-redux-toolkit/static/js/main.01ddc51a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a77df5c9.css",
+    "static/js/main.01ddc51a.js"
+  ]
+}
