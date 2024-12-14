@@ -1,0 +1,14 @@
+.button {
+  background-color: aqua;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  margin-right: 15px;
+  border: 1px solid gray;
+  border-radius: 18px;
+
+  &:hover {
+    background-color: antiquewhite;
+    border-color: aquamarine;
+  }
+}

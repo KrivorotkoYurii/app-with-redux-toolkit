@@ -1,3 +1,3 @@
 # yuriis-template-react-ts
 
-[DEMO LINK](https://KrivorotkoYurii.github.io/header-footer-template/)
+[DEMO LINK](https://KrivorotkoYurii.github.io/app-with-redux-toolkit/)

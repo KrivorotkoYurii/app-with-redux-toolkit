@@ -7,6 +7,8 @@ import {
 import { App } from './App';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { HomePage } from './pages/HomePage';
+import { FirstPage } from './pages/FirstPage/FirstPage';
+import { SecondPage } from './pages/SecondPage/SecondPage';
 
 export const Root = () => (
   <Router>
@@ -15,10 +17,10 @@ export const Root = () => (
         <Route path="home" element={<Navigate to="/" replace />} />
         <Route index element={<HomePage />} />
         <Route path="catalog">
-          <Route index element={<HomePage />} />
-          <Route path=":idMeal" element={<HomePage />} />
+          <Route index element={<FirstPage />} />
+          <Route path=":idMeal" element={<FirstPage />} />
         </Route>
-        <Route path="choices" element={<HomePage />} />
+        <Route path="choices" element={<SecondPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
